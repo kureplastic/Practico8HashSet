@@ -36,6 +36,10 @@ public class Colegio {
         martbren.agregarMateria(matematica);
         martbren.agregarMateria(ingles);
         
+        System.out.println("Materias por alumno");
+        System.out.println(lopmar.getApellido() + ", " + lopmar.getNombre() + ": " + lopmar.cantidadMaterias());
+        System.out.println(martbren.getApellido() + ", " + martbren.getNombre() + ": " + martbren.cantidadMaterias());
+        
         
         
     }
