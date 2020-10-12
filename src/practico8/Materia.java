@@ -54,6 +54,11 @@ public class Materia {
         else
             return (this.idMateria == ((Materia)obj).idMateria);
     }
+
+    @Override
+    public int hashCode() {
+        return idMateria;
+    }
     
     
     
