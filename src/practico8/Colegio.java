@@ -25,12 +25,12 @@ public class Colegio {
         Alumno martbren = new Alumno(1002, "Martinez", "Brenda");
         
         
-        System.out.println("Agregando materias para el alumno: " + lopmar.getApellido() + lopmar.getNombre());
+        System.out.println("Agregando materias para el alumno: " + lopmar.getApellido() + ", " + lopmar.getNombre());
         lopmar.agregarMateria(lab1);
         lopmar.agregarMateria(matematica);
         lopmar.agregarMateria(ingles);
         
-        System.out.println("Agregando materias para el alumno: " + martbren.getApellido() + martbren.getNombre());
+        System.out.println("Agregando materias para el alumno: " + martbren.getApellido()+ ", " +martbren.getNombre());
         martbren.agregarMateria(lab1);
         martbren.agregarMateria(lab1);
         martbren.agregarMateria(matematica);
